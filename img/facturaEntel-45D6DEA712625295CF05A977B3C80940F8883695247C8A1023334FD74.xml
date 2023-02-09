@@ -1,0 +1,119 @@
+<facturaElectronicaTelecomunicacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="facturaElectronicaTelecomunicacion.xsd">
+    <cabecera>
+        <nitEmisor>1020703023</nitEmisor>
+        <razonSocialEmisor>EMPRESA NACIONAL DE TELECOMUNICACIONES S. A.</razonSocialEmisor>
+        <municipio>La Paz</municipio>
+        <telefono>2141010</telefono>
+        <nitConjunto xsi:nil="true"></nitConjunto>
+        <numeroFactura>4687141</numeroFactura>
+        <cuf>45D6DEA712625295CF05A977B3C80940F8883695247C8A1023334FD74</cuf>
+        <cufd>BQWVDREhDQkE=NkDAyNDg2RDk4Qjc=QkFxQkFHRUNYVUFQzMkJGMkJFNjIzN</cufd>
+        <codigoSucursal>0</codigoSucursal>
+        <direccion>CALLE FEDERICO ZUAZO Nro. 1771 Edif.: TOWER Piso: 10 Depto.: - Zona/Barrio: CENTRAL</direccion>
+        <codigoPuntoVenta>0</codigoPuntoVenta>
+        <fechaEmision>2023-02-03T17:15:25.984</fechaEmision>
+        <nombreRazonSocial>YOVAN RAMON YAUNE ENOVERE</nombreRazonSocial>
+        <codigoTipoDocumentoIdentidad>1</codigoTipoDocumentoIdentidad>
+        <numeroDocumento>12527614</numeroDocumento>
+        <complemento xsi:nil="true"></complemento>
+        <codigoCliente>223087236</codigoCliente>
+        <codigoMetodoPago>6</codigoMetodoPago>
+        <numeroTarjeta xsi:nil="true"></numeroTarjeta>
+        <montoTotal>23.51</montoTotal>
+        <montoTotalSujetoIva>23.51</montoTotalSujetoIva>
+        <codigoMoneda>1</codigoMoneda>
+        <tipoCambio>1.0</tipoCambio>
+        <montoTotalMoneda>23.51</montoTotalMoneda>
+        <montoGiftCard xsi:nil="true"></montoGiftCard>
+        <descuentoAdicional>0.0</descuentoAdicional>
+        <codigoExcepcion>1</codigoExcepcion>
+        <cafc xsi:nil="true"></cafc>
+        <leyenda>Ley N° 453: Los servicios deben suministrarse en condiciones de inocuidad, calidad y seguridad.</leyenda>
+        <usuario>COB</usuario>
+        <codigoDocumentoSector>22</codigoDocumentoSector>
+    </cabecera>
+    
+<detalle>
+        <actividadEconomica>610000</actividadEconomica>
+        <codigoProductoSin>84190</codigoProductoSin>
+        <codigoProducto>103641</codigoProducto>
+        <descripcion>TARIFA BASICA INTERNET FIBRA (1)</descripcion>
+        <cantidad>1</cantidad>
+        <unidadMedida>58</unidadMedida>
+        <precioUnitario>21.51</precioUnitario>
+        <montoDescuento>0</montoDescuento>
+        <subTotal>21.51</subTotal>
+        <numeroSerie xsi:nil="true"></numeroSerie>
+        <numeroImei xsi:nil="true"></numeroImei>
+    </detalle><detalle>
+        <actividadEconomica>610000</actividadEconomica>
+        <codigoProductoSin>84190</codigoProductoSin>
+        <codigoProducto>32872</codigoProducto>
+        <descripcion>CARGO DE INSTALACION FTT (1)</descripcion>
+        <cantidad>1</cantidad>
+        <unidadMedida>58</unidadMedida>
+        <precioUnitario>2</precioUnitario>
+        <montoDescuento>0</montoDescuento>
+        <subTotal>2</subTotal>
+        <numeroSerie xsi:nil="true"></numeroSerie>
+        <numeroImei xsi:nil="true"></numeroImei>
+    </detalle><Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></DigestMethod>
+<DigestValue>T+zdRn6iZRhIshse11tqZdsuTbqkNWdOtCTY3EHo3+E=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+k9YegZ7J25J8RwMCdhi7YfnNpdp9ReIgvJXD6VW6b87qocuTD95TKFJ+b7XYabhm8wtT0irA9ylQ
+i98M0ogfXTexp/GASplnxiGOd3BeM/Dl+iArgSs/VWzppab9QW4B5qoZBMth+O22xjTqCCTcQ02c
+KGIRPWfZum7reILrlYF9Ks3z6QzxAiXq3UdVbISjGYyQY1VAiXK2FzQSpfo1X5QLBnMSDJJeLcgw
+FZnqzmMCDxyc8pliKY5UQWJ+pfdFsju7+wkGCEgxjYXPSzAdFciHZijYTPGiiP9LfYaA0QohdLaB
+BHugtI2H2Iw4BC6QsC8bhMH9TlJuQPHMvU6rPw==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIHNjCCBR6gAwIBAgIIIoXBsnAmisUwDQYJKoZIhvcNAQELBQAwSzEsMCoGA1UEAwwjRW50aWRh
+ZCBDZXJ0aWZpY2Fkb3JhIFB1YmxpY2EgQURTSUIxDjAMBgNVBAoMBUFEU0lCMQswCQYDVQQGEwJC
+TzAeFw0yMjAzMzExNDA0MDBaFw0yMzAzMjQyMDA0MDBaMIHdMQswCQYDVQQuEwJDSTEgMB4GA1UE
+AwwXUk9RVUUgUk9ZIE1FTkRFWiBTT0xFVE8xEzARBgNVBAUTCjEwMjA3MDMwMjMxGDAWBgNVBAwM
+D0dlcmVudGUgR2VuZXJhbDEZMBcGA1UECwwQR0VSRU5DSUEgR0VORVJBTDETMBEGA1UECgwKRU5U
+RUwgUy5BLjELMAkGA1UEBhMCQk8xFDASBgcrBgEBAQEADAcyODA3MTA3MSowKAYDVQQNDCFQZXJz
+b25hIEp1cmlkaWNhIEZpcm1hIEF1dG9tYXRpY2EwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCz9tKYWMnpRajPblj3LECB6yrxvqdLlx+dhDxgloy+prqmC9aOsnE6V1xdcN8OLeac4yOc
+4BqSg5scUr5nOC7oGHwmL+j4GURv51+PsyvPHdjekFnrR4Ds7Kyz+9WU0iiK+TOdR8wrs9655xZp
+xjD4aqCMYaP4O4sd/pHIqzVXcPP+xPi2WqkNcyJs41HziH9sk8cB9bgqYotYD+xCyfIzLuq5VtCf
+6HpJSK/21yv43eO5RBwLOrXuK/wMUHzAaiUVbPkhtduX4UavGmZaNXsOD33ISdVYgoBPYqEntw7p
+NsucQr4NkgonwsV4bY19Dp27PJ5fzOMYL6TD9thvhj01AgMBAAGjggKJMIIChTB5BggrBgEFBQcB
+AQRtMGswOwYIKwYBBQUHMAKGL2h0dHBzOi8vd3d3LmZpcm1hZGlnaXRhbC5iby9maXJtYWRpZ2l0
+YWxfYm8ucGVtMCwGCCsGAQUFBzABhiBodHRwOi8vd3d3LmZpcm1hZGlnaXRhbC5iby9vY3NwLzAd
+BgNVHQ4EFgQUWn8qdW9cINXJP6J2RdKRhGHL9kYwCQYDVR0TBAIwADAfBgNVHSMEGDAWgBTSmd3B
+byUuJ6gL69zZ1pJbYlWgwjCBxAYDVR0gBIG8MIG5MFAGDmBEAAAAAQ4BAgABAAAAMD4wPAYIKwYB
+BQUHAgEWMGh0dHBzOi8vd3d3LmZpcm1hZGlnaXRhbC5iby9wb2xpdGljYWp1cmlkaWNhLnBkZjBl
+Bg9gRAAAAAEOAQIAAQIBAAEwUjBQBggrBgEFBQcCAjBEHkIAUABlAHIAcwBvAG4AYQAgAEoAdQBy
+AGkAZABpAGMAYQAgAEYAaQByAG0AYQAgAEEAdQB0AG8AbQBhAHQAaQBjAGEwgZMGA1UdHwSBizCB
+iDCBhaAyoDCGLmh0dHA6Ly93d3cuZmlybWFkaWdpdGFsLmJvL2Zpcm1hZGlnaXRhbF9iby5jcmyi
+T6RNMEsxLDAqBgNVBAMMI0VudGlkYWQgQ2VydGlmaWNhZG9yYSBQdWJsaWNhIEFEU0lCMQ4wDAYD
+VQQKDAVBRFNJQjELMAkGA1UEBhMCQk8wCwYDVR0PBAQDAgTwMCcGA1UdJQQgMB4GCCsGAQUFBwMC
+BggrBgEFBQcDAwYIKwYBBQUHAwQwKgYDVR0RBCMwIYEfZmFjdHVyYWNpb25lbGVjdHJvbmljYUBl
+bnRlbC5ibzANBgkqhkiG9w0BAQsFAAOCAgEAUC27KSjUJ3T0zucgAmIuhvwDKFjvMGBeUnY5Rs9F
+NDAiSlbvvAUBDOwt95WIWH8pAExFAi6Pgc2jXZ+Fop9Iqvj5/87pKBGjAuy7LyAR7YbKHRqB/HWT
+icjgqEQQd86Hc65OpTip8k7MZOHiVc9unUTTg0E+RyZrlFoARwW602d7/HIY7qcx9ZR72e6PiGDY
+GX5gHAjjWp4TVHkvTaa4YakCO3FJDl1XkIZF3p4iWrEDj2TwKb0A3LmL1qZhy+K0PmUTSiyzp1q3
+hmpAcuWBx+QJLoy0QKkZ+oz8g7PFNmxz8Khw4dxwKZHyVVIS5f/BdqHLQirbRRQaAnoU3mNu6+UV
+8uCqs/rtuab2DS5qlLJms9sPsUFKIau+56ZLXQxGKe7s1mEKeojxduRNzNT8fGXQBvSchhI7nfZ1
+mvvkLu0/wPx73fB9+Gsff6Iq/6KoR2xiy7Nij7RPQAxaaKZsPcv/DljUZhHFLPIrBTMfmxWoFomc
+xcKhPTlFc7AAn+qNR4KEG/tK69Nb5rdKywXKsnDz6ZZD7i+qJDNmg9JQTRxfakCIbMOE76E7QGLb
+4ZiNBOadNp5/PTBg+ZkJ79Phx6YesyqdgtYJFM3+t878yoXoUW0Q2GUndqQEdAyFVtvy2IU00WfJ
+hO4gZeRBxhndPqWi/G1Jmu26t2XPbvQrWvo=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature></facturaElectronicaTelecomunicacion>

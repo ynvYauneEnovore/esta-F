@@ -11,56 +11,74 @@ if( $_POST ){
   add( $gasto, $descripcion_gasto, $precio, $hora, $fecha );
   die();
 }
-
 ?>
+
 <!doctype html>
 <html class="no-js" lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nuevo</title>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
- <link href="css/ico/css/fontawesome.css" rel="stylesheet">
-  <link href="css/ico/css/brands.css" rel="stylesheet">
-  <link href="css/ico/css/solid.css" rel="stylesheet">
-<link rel="icon" href="img/add.png
-" type="image/icon type">
-
- <style>
-      .banner-image {
-        background-image: url('img/fondo.png');
-        background-size: cover;
-      }
-    </style>
-  
-  </head>
-  <body>
-<nav class="navbar bg-body-tertiary nabvar-dark" fixed-top style="background-image: radial-gradient(circle at 50% 50%, #3db595 0, #2ab396 25%, #00b097 50%, #00ad98 75%, #00ab9a 100%);">
-  <div class="container-fluid">
-<a class="navbar-brand" href="#">esta-F</a>
-  <a class="nav-link" href="index.php">
-  <img src="img/2.png" alt="YNV@vanclama" width="120" height="135">
-  </a>
-
-    <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-         <div class="offcanvas-header">
-             <h5 class="offcanvas-title" id="offcanvasNavbarLabel">ESTA-F</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-       </div>
-  </div>
- </nav>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nuevo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+       <link href="css/ico/css/fontawesome.css" rel="stylesheet">
+       <link href="css/ico/css/brands.css" rel="stylesheet">
+       <link href="css/ico/css/solid.css" rel="stylesheet">
+       <link rel="icon" href="img/add.png" type="image/icon type">
+       <style>
+           .banner-image {
+                background-image: url('img/fondo.png');
+                background-size: cover;
+            }
+       </style>
+    </head>
+    <body>
+        <nav class="navbar bg-body-tertiary fixed-top justify-content-center" style="background-image: radial-gradient(circle at -0.9% 58.97%, #cdffc7 0, #b8ffce 12.5%, #9affd1 25%, #6fffcf 37.5%, #00ffca 50%, #00eec6 62.5%, #00e1c9 75%, #00d9d2 87.5%, #00d6df 100%);">
 
 
-<div>
+	    <div class="justify-content-center">
+                <ul class="nav nav-pills">
+                    <li class="nav-item p-md-4">
+                        <a class="nav-link active" aria-current="page" href="#">Agregar</a>
+                    </li>
+                    <li class="nav-item p-md-4">
+                        <a class="nav-link" href="#">Listar</a>
+                    </li>
+                    <li class="nav-link p-md-4">
+                        <a class="navbar-brand" href="#">
+			<img src="img/3.png" width="80" height="70">
+		        </a>
+                    </li>
+                    <li class="nav-item p-md-4">
+                        <a class="nav-link" href="#">Editar</a>
+                    </li>
+                  
+                    <li class="nav-item p-md-4">
+
+<button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+  <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+             <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li> 
+       </ul>
+   </div>
+</div>
+    </li>
+</li>
+
 </nav>
-      <!-- Banner Image  -->
+</div> 
+<!-- Banner Image  -->
     <div class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
-      <div class="content text-center">
-
+      <div class="content d-flex">
 <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
